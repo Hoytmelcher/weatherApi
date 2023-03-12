@@ -21,7 +21,7 @@ body {
   
   button#getResults {
     background-color: #3498db;
-    color: #fff;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -43,7 +43,7 @@ body {
     align-items: center;
     border-radius: 5px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: xx-large;
     width: fit-content;

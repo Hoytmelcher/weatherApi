@@ -13,11 +13,11 @@ async function weatherApi(cityName) {
 
             <div class="weather">
                 <h2>City: ${data.name}</h2><br><br>
-                <h3>Current Temp: ${Math.round(farenheitCurrent)}℉</h3><br><br>
-                <h4>Conditions: ${data.weather[0].main}</h4><br><br>
-                <h4>High: ${Math.round(farenheitHigh)}℉</h4><br><br>
-                <h4>Low: ${Math.round(farenheitLow)}℉</h4><br><br>
-                <h4>Humidity: ${data.main.humidity}%</h4><br><br>
+                <h3>Current Temp: ${Math.round(farenheitCurrent)}℉</h3><br>
+                <h4>Conditions: ${data.weather[0].main}</h4><br>
+                <h4>High: ${Math.round(farenheitHigh)}℉</h4><br>
+                <h4>Low: ${Math.round(farenheitLow)}℉</h4><br>
+                <h4>Humidity: ${data.main.humidity}%</h4><br>
             </div>
 
     `
